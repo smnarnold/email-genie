@@ -52,5 +52,5 @@ Options
 | `insert` | Where the datalist generated should be outputed. |
 
 <p align="center">
-  <img src="https://smnarnold.com/email-genie/email-genie-logo.png" alt="Email Genie">
+  <img src="https://i.smnarnold.com/email-genie/email-genie-logo.png" alt="Email Genie">
 </p>
