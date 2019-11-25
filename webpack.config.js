@@ -39,8 +39,8 @@ module.exports = {
     ],
   },
   entry: {
-    'email-genie': './src/email-genie.js',
-    'email-genie.min': './src/email-genie.js',
+    'email-genie': './email-genie.js',
+    'email-genie.min': './email-genie.js',
   },
   output: {
     filename: "[name].js",

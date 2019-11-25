@@ -2,7 +2,7 @@
   "name": "email-genie",
   "version": "1.0.0",
   "description": "Allows users to easily and quickly complete an email field by providing a list of domain suggestions (gmail.com, outlook.com, etc.). This package stands out for its flexibility, its compatibility with libraries / frameworks, but especially its use of basic HTML and Javascript functionalities that maximize the native behavior of desktop AND mobile browsers.",
-  "main": "src/email-genie.js",
+  "main": "email-genie.js",
   "scripts": {
     "start": "webpack"
   },
