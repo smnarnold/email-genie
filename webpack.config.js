@@ -4,7 +4,6 @@
  */
 
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
-const isDev = process.env.NODE_ENV === 'development';
 
 module.exports = {
   devtool: 'inline-source-map',
