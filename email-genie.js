@@ -14,7 +14,7 @@ class EmailGenie {
     
     this.originalSettings = {
       id: `emailAutoComplete-${this.uuidv4}`,
-      domains: ['gmail.com', 'outlook.com', 'hotmail.com', 'msn.com', 'live.com', 'googlemail.com', 'yahoo.com', 'me.com', 'icloud.com', 'videotron.ca'],
+      domains: ['gmail.com', 'outlook.com', 'hotmail.com', 'msn.com', 'live.com', 'googlemail.com', 'yahoo.com', 'me.com', 'icloud.com'],
       insert: 'afterend'
     };
     
