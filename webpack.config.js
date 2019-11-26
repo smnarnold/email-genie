@@ -42,6 +42,9 @@ module.exports = {
     'email-genie.min': './email-genie.js',
   },
   output: {
+    library: 'EmailGenie',
+    libraryTarget: 'umd',
+    libraryExport: "default",
     filename: "[name].js",
   },
 };

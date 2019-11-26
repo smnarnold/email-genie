@@ -1,5 +1,3 @@
-'use strict'
-
 class EmailGenie {
   constructor(el, settings) {
     this.dom = {
@@ -73,16 +71,6 @@ class EmailGenie {
   }
 }
 
-if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
-  module.exports.EmailGenie
-} else {
-  if (typeof define === 'function' && define.amd) {
-    define([], () => {
-      return EmailGenie;
-    });
-  } else {
-    window.EmailGenie = EmailGenie;
-  }
-}
+export default EmailGenie;
 
 
