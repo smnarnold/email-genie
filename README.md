@@ -11,13 +11,22 @@ Allows autocomplete on email field by providing a list of domain suggestions (gm
   <img src="https://media.giphy.com/media/RJsurNsgJeaMGkIyz9/giphy.gif">
 </p>
 
+Examples
+-----
+- [Basic](https://codepen.io/smnarnold/pen/bGGPvZo)
+- [Custom domains](https://codepen.io/smnarnold/pen/bGGPMba)
+
 Installation
-------------
+-----
 ```shell
 npm i email-genie
 ```
 Import
 -----
+### CDN
+```js
+<script src="https://unpkg.com/email-genie"></script>;
+```
 ### Classic
 ```js
 const EmailGenie require('email-genie');
