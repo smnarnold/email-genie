@@ -1,9 +1,11 @@
 # Email Genie
 Allows autocomplete on email field by providing a list of domain suggestions (gmail.com, outlook.com, etc.). This package is lightweight, flexible, compatible with libraries (jQuery, etc) / frameworks (React, Angular, Vue, etc) and maximize native behaviors on desktop AND mobile browsers.
 
-🚫 Dependencies
-🚫 HTML Wrapper
-🚫 CSS injected
+👍 Lite 5kb (kb Gzipped)
+⚡ Fast Native JavaScript
+🚫 No Dependencies
+🚫 No HTML Wrapper
+🚫 No CSS injected
 
 <p align="center">
   <img src="https://media.giphy.com/media/RJsurNsgJeaMGkIyz9/giphy.gif">
@@ -44,12 +46,11 @@ const field = new EmailGenie('.email', {
 
 Options
 -----
-| Option  | Description                                  |
-| ------- | -------------------------------------------- |
-| `domains` | All email domains you want to autocomplete for. Defaults to a predefined array of email domains. |
-| `appendToDomains` | Wether the domains in the setting should be append to the default one or replace them all together at false |
-| `appendToDomains` | Wether the domains in the setting should be append to the default one or replace them all together at false |
-| `insert` | Where the datalist generated should be outputed. |
+| Option  | Default | Possibilities | Description |
+| ------- | ------- | ------------- | ----------- |
+| domains | ['gmail.com', 'outlook.com', 'hotmail.com', 'msn.com', 'live.com', 'googlemail.com', 'yahoo.com', 'me.com', 'icloud.com'] | [] | Array of domains suggestions. _(By default if provided, this array will be added to the default domains suggestions. View overrideDomains flag to override them.)_ |
+| overrideDomains | false | Boolean _(true/false)_ | Wether the domains suggestions array should override the default one. |
+| insert | 'afterend' | 'beforebegin', 'afterend', 'documentend'  | Where the datalist generated should be inserted: Before the input, after the input, at the end of the document. |
 
 <p align="center">
   <img src="https://i.smnarnold.com/email-genie/email-genie-logo.png" alt="Email Genie">

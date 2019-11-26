@@ -1,5 +1,5 @@
 class EmailGenie {
-  constructor(el, settings) {
+  constructor(el, settings = {}) {
     this.dom = {
       el,
     };
@@ -15,10 +15,13 @@ class EmailGenie {
     this.originalSettings = {
       id: `emailAutoComplete-${this.uuidv4}`,
       domains: ['gmail.com', 'outlook.com', 'hotmail.com', 'msn.com', 'live.com', 'googlemail.com', 'yahoo.com', 'me.com', 'icloud.com'],
+      overrideDomains: false,
       insert: 'afterend'
     };
     
-    if(settings && settings.appendToDomains) {
+    if (settings.domains && settings.overrideDomains) {
+      settings.domains = settings.domains;
+    } else {
       settings.domains = [...this.originalSettings.domains, ...settings.domains];
     }
     
@@ -34,7 +37,12 @@ class EmailGenie {
   
   createDataList() {
     this.dom.el.setAttribute('list', this.settings.id);
-    this.dom.el.insertAdjacentHTML(this.settings.insert, `<datalist id="${this.settings.id}"></datalist>`);
+    const list = `<datalist id="${this.settings.id}"></datalist>`;
+    if (this.settings.insert === 'documentend') {
+      document.body.insertAdjacentHTML('beforeend', list);
+    } else {
+      this.dom.el.insertAdjacentHTML(this.settings.insert, list);
+    }
     this.dom.list = document.querySelector(`#${this.settings.id}`);
   }
   
