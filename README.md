@@ -22,17 +22,22 @@ Import
 import EmailGenie from 'email-genie';
 ```
 
-Usage with text selector
+Usage
 -----
+### With text selector
 ```js
 const email = new EmailGenie('.email');
 ```
 
-Usage with dom element
------
+### With JS dom element
 ```js
 const elem = document.querySelector('.email')
 const field = new EmailGenie(elem);
+```
+
+### With jQuery
+```js
+const field = new EmailGenie($('.email'));
 ```
 
 Add custom domains
