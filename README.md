@@ -48,9 +48,13 @@ Options
 -----
 | Option  | Default | Possibilities | Description |
 | ------- | ------- | ------------- | ----------- |
-| domains | ['gmail.com', 'outlook.com', 'hotmail.com', 'msn.com', 'live.com', 'googlemail.com', 'yahoo.com', 'me.com', 'icloud.com'] | [] | Array of domains suggestions. _(By default if provided, this array will be added to the default domains suggestions. View overrideDomains flag to override them.)_ |
+| domains | ['gmail.com', 'outlook.com', 'hotmail.com', 'msn.com', 'live.com', 'googlemail.com', 'yahoo.com', 'me.com', 'icloud.com'] | [] | Array of domains suggestions. _(By default, this array will be added to the default domains suggestions. View overrideDomains option to override instead.)_ |
 | overrideDomains | false | Boolean _(true/false)_ | Wether the domains suggestions array should override the default one. |
 | insert | 'afterend' | 'beforebegin', 'afterend', 'documentend'  | Where the datalist generated should be inserted: Before the input, after the input, at the end of the document. |
+
+Support
+-----
+Chrome, Firefox, Safari, Edge, IE 11
 
 <p align="center">
   <img src="https://i.smnarnold.com/email-genie/email-genie-logo.png" alt="Email Genie">
