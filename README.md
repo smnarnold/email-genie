@@ -1,7 +1,7 @@
 # Email Genie
 Allows autocomplete on email field by providing a list of domain suggestions (gmail.com, outlook.com, etc.). This package is lightweight, flexible, compatible with libraries (jQuery, etc) / frameworks (React, Angular, Vue, etc) and maximize native behaviors on desktop AND mobile browsers.
 
-👍 Lite 5kb (kb Gzipped)
+👍 Lite 5kb (2kb Gzipped)
 ⚡ Fast Native JavaScript
 🚫 No Dependencies
 🚫 No HTML Wrapper
