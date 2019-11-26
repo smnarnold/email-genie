@@ -6,7 +6,7 @@ class EmailGenie {
 
     if (typeof el === 'string') {
       this.dom.el = document.querySelector(el);
-    } else if ( el instanceof jQuery) {
+    } else if (el.jquery) {
       this.dom.el = el[0];
     }
 
@@ -15,7 +15,7 @@ class EmailGenie {
     }
 
     this.originalSettings = {
-      id: `emailAutoComplete-${this.uuidv4}`,
+      id: `emailGenie-${this.uuidv4}`,
       domains: ['gmail.com', 'outlook.com', 'hotmail.com', 'msn.com', 'live.com', 'googlemail.com', 'yahoo.com', 'me.com', 'icloud.com'],
       overrideDomains: false,
       insert: 'afterend'
