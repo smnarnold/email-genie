@@ -18,6 +18,11 @@ npm i email-genie
 ```
 Import
 -----
+### Classic
+```js
+const EmailGenie require('email-genie');
+```
+### ES6
 ```js
 import EmailGenie from 'email-genie';
 ```
