@@ -24,18 +24,18 @@ import EmailGenie from 'email-genie';
 
 Usage
 -----
-### With text selector
+### Text selector
 ```js
 const email = new EmailGenie('.email');
 ```
 
-### With JS dom element
+### Vanilla JS
 ```js
 const elem = document.querySelector('.email')
 const field = new EmailGenie(elem);
 ```
 
-### With jQuery
+### jQuery
 ```js
 const field = new EmailGenie($('.email'));
 ```
