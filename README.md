@@ -39,8 +39,7 @@ Add custom domains
 -----
 ```js
 const field = new EmailGenie('.email', {
-  domains: ['videotron.ca'],
-  appendToDomains: true
+  domains: ['videotron.ca', 'aol.com'],
 });
 ```
 
