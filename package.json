@@ -15,6 +15,14 @@
     "field"
   ],
   "author": "Simon Arnold, <moi@smnarnold.com> (https://smnarnold.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smnarnold/email-genie.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smnarnold/email-genie/issues"
+  },
+  "homepage": "https://github.com/smnarnold/email-genie#readme",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.4.3",
