@@ -14,7 +14,7 @@
     "input",
     "field"
   ],
-  "author": "Simon Arnold",
+  "author": "Simon Arnold, <moi@smnarnold.com> (https://smnarnold.com)",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.4.3",
