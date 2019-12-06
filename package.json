@@ -1,6 +1,6 @@
 {
   "name": "email-genie",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Native JS Autocomplete on email fields",
   "main": "dist/email-genie.js",
   "unpkg": "dist/email-genie.min.js",
