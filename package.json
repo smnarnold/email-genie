@@ -16,7 +16,10 @@
     "autosuggest",
     "suggestion",
     "input",
-    "field"
+    "field",
+    "no-jquery",
+    "vanilla",
+    "vanilla-js"
   ],
   "author": "Simon Arnold, <moi@smnarnold.com> (https://smnarnold.com)",
   "repository": {

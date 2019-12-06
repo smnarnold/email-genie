@@ -29,7 +29,7 @@ Import
 ```
 ### Classic
 ```js
-const EmailGenie require('email-genie');
+const EmailGenie = require('email-genie');
 ```
 ### ES6
 ```js
