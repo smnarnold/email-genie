@@ -1,0 +1,19 @@
+{
+  "name": "ES6 email-genie test",
+  "version": "1",
+  "scripts": {
+    "start": "webpack --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.71.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}

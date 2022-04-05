@@ -5,7 +5,8 @@
   "main": "dist/email-genie.js",
   "unpkg": "dist/email-genie.min.js",
   "scripts": {
-    "start": "webpack"
+    "start": "webpack --mode=development",
+    "prod": "webpack --mode=production"
   },
   "files": [
     "dist"
@@ -32,11 +33,10 @@
   "homepage": "https://github.com/smnarnold/email-genie#readme",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.15.5",
-    "@babel/preset-env": "^7.15.6",
-    "babel-loader": "^8.2.2",
-    "uglifyjs-webpack-plugin": "^2.1.2",
-    "webpack": "^4.46.0",
+    "webpack": "^5.71.0",
     "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
   }
 }
